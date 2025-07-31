@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 20px;
+}
+.container{
+max-width: 600px;   
+margin: auto; 
+padding: 30px;
+box-shadow: 0 0 10px rgba(0,0,0, 0.1);
+text-align: center;
+}
+
+#question{
+    font-size: 20px;
+    margin-bottom: 20px;
+
+}
+#options button{
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: .5px;
+    cursor: pointer;
+
+}
+#options button:hover{
+    background-color: #007BFF;
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+#score-box,#timer{
+    margin-top: 20px;
+    font-weight: bold;
+}
